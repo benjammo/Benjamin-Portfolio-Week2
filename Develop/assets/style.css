@@ -1,7 +1,109 @@
-* {
-    background-color: blue;
+
+body {
+    background-color: rgb(48, 32, 32);
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header img {
+    height: 30%;
+    width: 30%;
+    border-radius: 30px;
+}
+
+header h1 {
+    font-size: 64px;
+}
+
+nav {
+    font-size: 48px;
+    padding: 50px;
+}
+
+nav a {
+    background-color: rgb(201, 148, 85);
+    border: black 5px solid;
+    border-radius: 10px;
+}
+
+nav a:hover {
+    background-color: brown;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
 }
 
 p {
-    font-style: bold;
+    color: rgb(24, 151, 19);
+}
+
+.card {
+    border: black 3px solid;
+    width: 70%;
+    padding: 5px;
+    
+}
+
+.cardPortfolio {
+    border: black 3px solid;
+    width: 70%;
+    padding: 5px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.pf1 {
+
+    display: flex;
+    height: 60%;
+    width: 60%;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.pf1 img {
+    height: 300px;
+    width: 300px;
+}
+
+.pf2 {
+
+    display: flex;
+    height: 40%;
+    width: 40%;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.pf2 img {
+    height: 180px;
+    width: 180px;
+}
+
+
+aside {
+    font-size: 40px;
+    border-right: green 6px dotted;
+    border-left: green 6px dotted;
+    width: 16%;
+    border-radius: 20%;
+    transform: rotate(-4deg);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+ul {
+    list-style-position: inside;
 }
